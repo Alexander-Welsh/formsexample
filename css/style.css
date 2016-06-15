@@ -1,0 +1,44 @@
+#container{
+	color:white;
+	background: rgb(91,163,214);
+	width:100%;
+	height:1000px;
+	font-size: 9px
+}
+
+.group{
+	float:left;
+	width:200px;
+}
+
+
+label{
+	padding-bottom:3px;
+	padding-top:10px;
+	clear:both;	
+	float:left;
+	margin-left:50px;
+
+}
+
+div div div{
+	padding:5px;
+	margin-right: 10px;
+	width:200px;
+	
+}
+
+input, textarea, select{
+	float:left;
+	margin-left: 50px;
+	width:150px;	
+	background: rgb(91,163,214);
+	color:white;	
+	border:1px solid white;
+}
+textarea{
+	height:80px;
+}
+::-webkit-input-placeholder {
+   color:#359;
+}
